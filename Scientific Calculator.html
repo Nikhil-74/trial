@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/prolab.PROLAB-127/Desktop/Calculator.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">  
+<title> Scientific  Calculator </title>  
+  
+<style>  
+h1 {  
+    text-align: center;  
+    padding: 23px; 
+    background-color: #87ceeb;  
+    color: black;  
+    font: bold
+    }  
+  
+#clear{  
+width: 270px;  
+border: 3px solid rgb(5, 1, 1);  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: rgba(184, 106, 214, 0.445);  
+    font: bold
+    
+}  
+  
+.formstyle  
+{  
+width: 300px;  
+height: 530px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 20px;  
+font-family: "Times New Roman"
+
+}  
+  
+  
+  
+input  
+{  
+width: 20px;  
+background-color:beige;  
+color: black;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;  
+    font:bold    
+}  
+  
+  
+#cl{  
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+    font: bold
+}  
+  
+</style>  
+  
+</head>  
+<body>  
+<h1> Scientific Calculator</h1>  
+<div class="formstyle">  
+<form name="form1">  
+      
+  <input id="cl" type="text" name="answer"><br> 
+  
+  <input style="background-color: aqua" type="button" value="1" onclick="form1.answer.value += &#39;1&#39; ">  
+  <input style="background-color: aqua" type="button" value="2" onclick="form1.answer.value += &#39;2&#39; ">  
+  <input style="background-color: aqua" type="button" value="3" onclick="form1.answer.value += &#39;3&#39; ">  
+   <input style="background-color:burlywood" type="button" value="+" onclick="form1.answer.value += &#39;+&#39; ">  
+  <br> <br>  
+    
+  <input style="background-color: aqua" type="button" value="4" onclick="form1.answer.value += &#39;4&#39; ">  
+  <input style="background-color: aqua" type="button" value="5" onclick="form1.answer.value += &#39;5&#39; ">  
+  <input style="background-color: aqua" type="button" value="6" onclick="form1.answer.value += &#39;6&#39; ">  
+  <input style="background-color:burlywood" type="button" value="-" onclick="form1.answer.value += &#39;-&#39; ">  
+  <br> <br>  
+
+   
+  <input style="background-color: aqua" type="button" value="7" onclick="form1.answer.value += &#39;7&#39; ">  
+  <input style="background-color: aqua" type="button" value="8" onclick="form1.answer.value += &#39;8&#39; ">  
+  <input style="background-color: aqua" type="button" value="9" onclick="form1.answer.value += &#39;9&#39; ">  
+  <input style="background-color:burlywood" type="button" value="*" onclick="form1.answer.value += &#39;*&#39; ">  
+  <br> <br>  
+    
+    
+  <input style="background-color: aqua" type="button" value="/" onclick="form1.answer.value += &#39;/&#39; ">  
+  <input style="background-color: aqua" type="button" value="0" onclick="form1.answer.value += &#39;0&#39; ">  
+  <input style="background-color: aqua" type="button" value="." onclick="form1.answer.value += &#39;.&#39; ">  
+ 
+  <input style="background-color:burlywood" type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) ">  
+  <br>   
+  
+  <input type="button" value="Clear" onclick="form1.answer.value = &#39; &#39; " id="clear">  
+  <br>   
+    
+</form>  
+</div>  
+  
+  
+
+
+
+</body></html>
